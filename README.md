@@ -1,15 +1,14 @@
-### Creando un API REST con Kotlin y Spring Boot
+### Task Planner API REST with Kotlin and Spring Boot
 
-Vamos a construir nuestros primeros micro servicios. Estos serán API REST que permitan realizar las operaciones create, read, update y delete (CRUD) sobre los siguientes modelos de datos:
+Micro services that will implement create, read, update y delete (CRUD):
 
-- Usuarios
-- Restaurantes
-- Reservas
+- Users CRUD & signin/Login
+- Tasks CRUD
 
-Siga las siguientes instrucciones para implementar cada microservicio. La progrmación eventualmente se vuelve una rutina donde repito los mismo pasos para lograr funcionalideades comunes o implementadas anteriormente:
+Steps to develop:
 
-1. Crear un nuevo proyecto en [Spring Boot Initializr](https://start.spring.io/)
-2. Crear el o los controladores requeridos para cada Endpoint o Servicio.
-3. Crear los interfaces de los servicios responsables de las operaciones CRUD.
-4. Implementar el servicio e inyectarlo en controlador.
-5. Probar usando [Postman](https://www.postman.com/) a cualquier otro cliente web que efectivamente las operaciones CRUD funcionan correctamente.
+1. Create new spring boot web in [Spring Boot Initializr](https://start.spring.io/)
+2. Create a controller for each endpoint.
+3. Create service interfaces that will be responsible of CRUD operations.
+4. Implement the service and inject it to its controller.
+5. Try using [Postman](https://www.postman.com/) or any other web client that could try CRUD.
